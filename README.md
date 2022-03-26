@@ -1,4 +1,5 @@
 # Project - *Movies*
+#LIVE DEMO : https://test-elotus.netlify.app/
 
 **Movies** is a movies app using the [The Movie Database API](https://developers.themoviedb.org/3).
 
@@ -51,6 +52,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 > Please record screen to a GIF file and attach link here
+> https://media.giphy.com/media/MVHZSyg9y9tFeV2dnh/giphy.gif
 
 ## License
 
