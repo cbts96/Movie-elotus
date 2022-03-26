@@ -1,0 +1,5 @@
+export const GET_LIST_FILM='GET_LIST_FILM';
+export const GET_NP_LIST_FILM='GET_NP_LIST_FILM';
+export const GET_UC_LIST_FILM='GET_UC_LIST_FILM';
+export const GET_FILM_DETAIL='GET_FILM_DETAIL';
+export const GET_HIGHEST='GET_HIGHEST';

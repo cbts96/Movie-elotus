@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Project - *Movies*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Movies** is a movies app using the [The Movie Database API](https://developers.themoviedb.org/3).
 
-## Available Scripts
+Time spent: **HH** hours spent in total
 
-In the project directory, you can run:
+## User Stories
 
-### `npm start`
+The following **required** functionality is completed:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [ ] User can view a list of movies currently playing in theaters. Poster images load asynchronously.  
+        ===>Successfully, you can see it in the main page, you can change the list from upcoming movie to recently movie. IMG can load async.
+- [ ] User can view movie details by tapping on a cell.
+        ===>Successfully, in the main page and top rated you can click the button "See more detail".
+- [ ] User sees loading state while waiting for the API.
+        ===>Successfully, in the home page you can see the small spinner, it make us more comfotable while API loading.
+- [ ] User sees an error message when there is a network error.
+        ===>Successfully, i already added Error Boundary, it help us see info of the error instead the nasty error screen.
+- [ ] User can pull to refresh the movie list.
+        ===>Successfully.
+- [ ] Simple responsive.
+        ===>Successfully.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The following **optional** features are implemented:
 
-### `npm test`
+- [ ] Add a tab bar for **Now Playing** and **Top Rated** movies.
+        ===>Successfully. you can see it in the main page Tab "Now Playing" and the "Top Rated" in the navigation header.
+- [ ] Implement segmented control to switch between list view and grid view. 
+- [ ] Add a search bar. 
+- [ ] All images fade in.
+        ===> Successfully. I use Framer Motion to handle it, you can see it in "Top Rated" page.
+- [ ] Implement lazy load image.
+        ===> Successfully. you can see it in "Top Rated" page, the page load slow and i apply Lazy loading in react.
+- [ ] Customize the highlight and selection effect of the cell.
+        ===>Successfully.
+- [ ] Improve UX loading by skeleton loading.
+        ===>Successfully. You can see it in Top Rated page, while the Image loading
+- [ ] Enhance responsive.
+        ===>Successfully. More responsive.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following **additional** features are implemented:
 
-### `npm run build`
+- [ ] List anything else that you can get done to improve the app functionality!
+        ===>Successfully, Added small authentication (Gooogle Login, because the limited time). 
+            Added the About Page.
+            Added the rating loader.
+            Added the main Carousel.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Video Walkthrough
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Here's a walkthrough of implemented user stories:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Please record screen to a GIF file and attach link here
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Copyright [2016] [your-name]
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+        http://www.apache.org/licenses/LICENSE-2.0
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
